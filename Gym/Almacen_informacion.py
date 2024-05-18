@@ -3,6 +3,7 @@ from Actividad import Actividad
 from Reserva import Reserva
 from Horario import Horario
 from Fecha import Fecha
+import os
 
 
 class AlmacenInformacion:
@@ -12,10 +13,12 @@ class AlmacenInformacion:
         self.actividades: [Actividad] = []
         self.reservas: [Reserva] = []
         self.id_reserva_actual: int = 0
+        self.ruta_base = "C:/Users/user/Downloads/Gimnasio_POO/Documentos"
+
 
     def leer_usuario(self):
         try:
-            with open("/home/lia/PycharmProjects/Gimnasio_POO/Documentos/usuarios.txt", "r") as file:
+            with open(os.path.join(self.ruta_base, "usuarios.txt"), "r") as file:
                 for line in file:
                     parts = line.strip().split(", ")
                     if len(parts) == 3:
@@ -29,7 +32,7 @@ class AlmacenInformacion:
 
     def leer_actividades(self):
         try:
-            with open("/home/lia/PycharmProjects/Gimnasio_POO/Documentos/actividades.txt", "r") as file:
+            with open(os.path.join(self.ruta_base, "actividades.txt"), "r") as file:
                 for line in file:
                     parts = line.strip().split(", ")
                     if len(parts) == 7:
@@ -45,7 +48,7 @@ class AlmacenInformacion:
 
     def leer_reserva(self):
         try:
-            with open("/home/lia/PycharmProjects/Gimnasio_POO/Documentos/reservas.txt", "r") as file:
+            with open(os.path.join(self.ruta_base, "reservas.txt"), "r") as file:
                 for line in file:
                     parts = line.strip().split(", ")
                     id_reserva = int(parts[0].split(": ")[1])

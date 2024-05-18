@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="787e3ec7-505d-49f5-aa5d-fe6f4b43e57a" name="Changes" comment="third commit: Interfaz Reserva">
+    <list default="true" id="787e3ec7-505d-49f5-aa5d-fe6f4b43e57a" name="Changes" comment="fifth commit: Calendar">
+      <change beforePath="$PROJECT_DIR$/.idea/Gimnasio_POO.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Gimnasio_POO.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Documentos/reservas.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Documentos/reservas.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Documentos/usuarios.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Documentos/usuarios.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gym/Almacen_informacion.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gym/Almacen_informacion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gym/Interfaz_principal.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gym/Interfaz_principal.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gym/Interfaz_reserva.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gym/Interfaz_reserva.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,21 +28,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "LianaD26"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;LianaD26&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/LianaD26/Gimnasio_POO.git",
-    "accountId": "7538d117-d179-4d35-983e-953e2e061c16"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/LianaD26/Gimnasio_POO.git&quot;,
+    &quot;accountId&quot;: &quot;7538d117-d179-4d35-983e-953e2e061c16&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2gZfcScwl7XARkwRkpKFjlNcnIg" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -48,10 +51,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.Calendario.executor": "Run",
     "Python.__init__.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/lia/PycharmProjects/pythonProject"
+    "last_opened_file_path": "C:/Users/user/Downloads/Gimnasio_POO"
   }
 }]]></component>
   <component name="RunManager">
@@ -86,7 +91,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-babbdf50b680-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.15989.155" />
+        <option value="bundled-python-sdk-5a2391486177-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.13763.11" />
       </set>
     </attachedChunks>
   </component>
@@ -115,12 +120,30 @@
       <option name="project" value="LOCAL" />
       <updated>1715950285453</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fourth commit: Almacen Informacion">
+      <option name="closed" value="true" />
+      <created>1715954692301</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1715954692301</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fifth commit: Calendar">
+      <option name="closed" value="true" />
+      <created>1715969561524</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1715969561524</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Second commit: Interfaz principal" />
     <MESSAGE value="third commit: Interfaz Reserva" />
-    <option name="LAST_COMMIT_MESSAGE" value="third commit: Interfaz Reserva" />
+    <MESSAGE value="fourth commit: Almacen Informacion" />
+    <MESSAGE value="fifth commit: Calendar" />
+    <option name="LAST_COMMIT_MESSAGE" value="fifth commit: Calendar" />
   </component>
 </project>

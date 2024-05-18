@@ -138,7 +138,7 @@ class InterfazReserva:
                     self.mostrar_actividades(i)
                     self.almacen.id_reserva_actual += 1
                     # escribir archivo de las reservas
-                    with open("/home/lia/PycharmProjects/Gimnasio_POO/Documentos/reservas.txt", "a") as file:
+                    with open("C:/Users/user/Downloads/Gimnasio_POO/Documentos/reservas.txt", "a") as file:
                         file.write(f"Id_reserva: {self.almacen.id_reserva_actual}, Id_actividad: {id_actividad}, "
                                    f"Documento: {self.usuario.documento}, Dia: {dia}, Mes: {mes}, Año: {ano}\n")
                     break
@@ -172,11 +172,11 @@ class InterfazReserva:
                 self.almacen.reservas.remove(reserva_a_cancelar)
                 messagebox.showinfo("Cancelar Reserva", f"La reserva número {id_reserva} fue cancelada con éxito!")
 
-                with open("/home/lia/PycharmProjects/Gimnasio_POO/Documentos/reservas.txt", "r") as file:
+                with open("C:/Users/user/Downloads/Gimnasio_POO/Documentos/reservas.txt", "r") as file:
                     lineas = file.readlines()
 
                 # reescribir el archivo sin la línea de la reserva cancelada
-                with open("/home/lia/PycharmProjects/Gimnasio_POO/Documentos/reservas.txt", "w") as file:
+                with open("C:/Users/user/Downloads/Gimnasio_POO/Documentos/reservas.txt", "w") as file:
                     for linea in lineas:
                         if not linea.startswith(
                                 f"Id_reserva: {reserva_a_cancelar.id_reserva}, Id_actividad: {reserva_a_cancelar.id_actividad}, Documento: {reserva_a_cancelar.documento_usuario}"):
